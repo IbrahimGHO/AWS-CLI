@@ -1,0 +1,18 @@
+# AWS CLI S3 Operations
+
+This README provides a quick reference guide for performing basic AWS S3 operations using the AWS Command Line Interface (CLI). The operations covered include listing buckets, listing objects within a bucket, creating a bucket, and uploading objects to a bucket.
+
+## Prerequisites
+
+Before you begin, ensure that you have:
+- An AWS account with necessary permissions to perform S3 operations.
+- AWS CLI installed and configured on your local machine. If you haven't set up the AWS CLI, follow the [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and [AWS CLI Configuration Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html).
+
+## AWS S3 Operations
+
+### 1. List All Buckets
+
+To list all the S3 buckets in your AWS account, use the following command:
+
+```sh
+aws s3 ls
